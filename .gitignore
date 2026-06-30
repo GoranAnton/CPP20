@@ -1,0 +1,105 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/build
+/tmp
+/out-tsc
+/app-builds
+/release
+.vs/
+main.js
+src/**/*.js
+!src/hub-native/**/*.js
+*.js.map
+
+# dev resources
+**/i18n/mock-*.json
+.env
+bundle-report.html
+
+# dependencies
+node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# CMake
+CMakeCache.txt
+CTestTestfile.CMake
+cmake_install.cmake
+**/CMakeFiles/
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+yarn.lock
+buildInfo.json
+
+# e2e
+/e2e/*.js
+!/e2e/protractor.conf.js
+/e2e/*.map
+
+# System Files
+.DS_Store
+Thumbs.db
+.editorconfig
+.vscode
+win_hub
+
+native_npm_staging
+
+src/renderer/coverage
+src/renderer/jreports
+
+# ignore copy of products.json file
+src/main/channels/service-channel/products-json/products.json
+
+native/TestResults
+
+*.tgz
+*.bak
+*.iobj
+*.ipdb
+*.cd
+*.FileListAbsolute.txt
+*.CopyComplete
+*.sdf
+*.AssemblyAttributes.cs
+*.ipch
+*.recipe
+*.vsidx
+*.tlog
+*.suo
+*.pdb
+*.exe
+*.dll
+*.lib
+*.obj
+*.log
+*.opendb
+*.idb
+*.ilk
+*.exp
+*.xml
+*.testdurations
+*.pch
